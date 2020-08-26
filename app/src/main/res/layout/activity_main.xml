@@ -7,11 +7,17 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="20dp"
         android:gravity="center_horizontal"
         android:text="EmpresaABC"
         android:textColor="#F4511E"
@@ -33,7 +39,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
+        android:drawableRight="@drawable/ic_usuario"
+        android:inputType="textPersonName"
         android:textSize="20sp" />
 
     <TextView
@@ -51,14 +59,16 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="20dp"
+        android:drawableRight="@drawable/ic_senha"
+        android:inputType="textPassword"
         android:textSize="20sp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:text="Entrar"
         android:textColor="#000" />
@@ -67,16 +77,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
         android:text="Sair"
         android:textColor="#000" />
 
     <TextView
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="15sp"
-        android:gravity="end"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Esqueceu a senha?"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15sp"
+        android:gravity="end"
+        android:text="Esqueceu a senha?" />
 </LinearLayout>
