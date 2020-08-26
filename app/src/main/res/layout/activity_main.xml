@@ -43,6 +43,7 @@
         android:layout_marginBottom="20dp"
         android:background="#FDD835"
         android:drawableRight="@drawable/ic_usuario"
+        android:hint="Insira o nome do usuário"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textSize="20sp" />
@@ -65,6 +66,7 @@
         android:layout_marginBottom="20dp"
         android:background="#FDD835"
         android:drawableRight="@drawable/ic_senha"
+        android:hint="Insira a senha do usuário"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="20sp" />
@@ -90,11 +92,11 @@
         android:textColor="#FFF" />
 
     <TextView
-        android:textColor="#000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginRight="15sp"
         android:gravity="end"
-        android:text="Esqueceu a senha?" />
+        android:text="Esqueceu a senha?"
+        android:textColor="#000" />
 </LinearLayout>
