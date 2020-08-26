@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4B278A6A"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -40,8 +41,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
+        android:background="#FDD835"
         android:drawableRight="@drawable/ic_usuario"
         android:inputType="textPersonName"
+        android:padding="10dp"
         android:textSize="20sp" />
 
     <TextView
@@ -60,8 +63,10 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
+        android:background="#FDD835"
         android:drawableRight="@drawable/ic_senha"
         android:inputType="textPassword"
+        android:padding="10dp"
         android:textSize="20sp" />
 
     <Button
@@ -70,8 +75,9 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
+        android:background="#13A5A0"
         android:text="Entrar"
-        android:textColor="#000" />
+        android:textColor="#FFF" />
 
     <Button
         android:layout_width="match_parent"
@@ -79,10 +85,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
+        android:background="#13A5A0"
         android:text="Sair"
-        android:textColor="#000" />
+        android:textColor="#FFF" />
 
     <TextView
+        android:textColor="#000"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
